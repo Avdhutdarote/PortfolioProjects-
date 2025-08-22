@@ -133,8 +133,3 @@ JOIN PortfolioProject..CovidVaccinations vac
 	AND dea.date =vac.date
 WHERE dea.continent IS NOT NULL
 --ORDER BY 2,3
-
-
-SELECT *
-
-FROM PercentPopulationVaccinated
